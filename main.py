@@ -1,13 +1,17 @@
+# https://medium.com/@syrom_85473/a-crewai-use-case-for-local-politics-drafting-a-municipal-election-program-with-exasearch-d9f218340dbb
 import os
 from contextlib2 import redirect_stdout
 from crewai import Crew
 from tasks import PoliticalProgramTasks
 from agents import PoliticalProgramAgents
 
-# Set up the environment for AI model interaction
-os.environ["OPENAI_API_KEY"] = "null"
-os.environ["OPENAI_API_BASE"]='http://localhost:11434/v1'
-os.environ["OPENAI_MODEL_NAME"]="mixtral"
+
+
+#os.environ["OPENAI_API_KEY"] = "null"
+#os.environ["OPENAI_API_BASE"]='http://localhost:11434/v1'
+#os.environ["OPENAI_MODEL_NAME"]="mixtral"
+
+
 
 #####################################################################
 # Establish a liberal election program for a municipal election
